@@ -1,0 +1,13 @@
+#Tue Jan 06 22:00:33 EST 2009
+antlr_core_code_generator_XdbgST=false
+antlr_core_code_generator_Xnoinlinedfa=true
+antlr_core_code_generator_append_java_package_to_out_folder=true
+antlr_core_code_generator_debug=false
+antlr_core_code_generator_out_folder=antlr/generated
+antlr_core_code_generator_out_option=p
+antlr_core_code_generator_profile=false
+antlr_core_code_generator_trace=false
+antlr_core_generate_code_on_save=true
+antlr_core_generate_implicit_lexer=false
+antlr_core_mark_generated_resources_as_derived=true
+eclipse.preferences.version=1

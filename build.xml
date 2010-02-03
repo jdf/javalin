@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Feb 3, 2010 11:36:35 AM                                                        
+
+     javalin    
+     LSystem interpreter for Java
+                   
+     jdf                                                                
+     ====================================================================== -->
+<project name="javalin" default="build">
+	<description>
+            LSystem interpreter for Java
+    </description>
+
+	<!-- ================================= 
+          target: build              
+         ================================= -->
+	<target name="build" description="LSystem interpreter for Java">
+
+	</target>
+
+	<!-- ================================= 
+          target: gen-antlr-grammar              
+         ================================= -->
+	<taskdef classpath="lib/antlr-3.2/antlr3.jar" name="antlr3" classname="org.apache.tools.ant.antlr.ANTLR3" />
+	<target name="gen-antlr-grammar">
+		<antlr3 target="antlr/LSystem.g" outputdirectory="antlr/generated/javalin">
+			<classpath path="lib/antlr-3.2/antlr-3.2.jar"></classpath>
+		</antlr3>
+	</target>
+
+</project>
